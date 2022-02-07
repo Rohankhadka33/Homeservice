@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+     
+    padding: 0%;
+     
+     
+    box-sizing: border-box;
+
+}
+body,
+input{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position:relative;
+     
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+}
+ 
+.form-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 2.3rem;
+    color:black;
+    margin-bottom: 10px;
+    font-weight:bolder;
+    font-family: 'open sans';
+ 
+}
+
+.input-field{
+    max-width: 380px;
+     
+    margin: 10px 0;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+
+ 
+.input-field i{
+    text-align: center;
+    line-height: 55px;
+    color:black ;
+    font-size: 1.5rem;
+
+}
+
+.input-field input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: black;
+
+}
+
+.input-field input:placeholder-shown{
+    color: #aaa;
+    font-weight: 500;
+
+}
+
+.btn_login{
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:cadetblue;
+    border-radius: 50px;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px 0;
+    transition: 0.5s;
+
+}
+ 
+.btn_login:hover{
+background-color:aquamarine;
+color: black;
+}
+
+
+.new_account{
+    display: grid;
+    grid-template-columns:80% 30%;
+
+}
+
+ .already-sign:hover{
+     color: red;
+ }
+
+.social-text{
+        font-size: larger;
+    display: flex;
+    justify-content: center;
+
+}
+.socialmedia-container{
+    padding: 20px;
+}
+
+.social-icons{
+    padding: 30px;
+    width: 65px;
+    height: 65px;
+     
+   
+}
+ 
+
+
+
+/* .googleicon,.twittericon,.facebookicon {
+    height: 40px;
+    width: 40px;
+
+} */
