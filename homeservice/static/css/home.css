@@ -13,9 +13,13 @@ body.input{
 }
 
 #main{
-    height: 500px;
-    background-image: url(https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg);
+    height: 530px;
+    background-image: radial-gradient(ellipse, #0000, #0007), url('../images/background_image.webp ');
+     
     background-size: cover;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+      
     background-repeat: no-repeat;
 
 
@@ -24,7 +28,7 @@ body.input{
 
 #head{
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 25px;
     padding-top: 10px;
     display:flex;
     align-items: center;
@@ -33,10 +37,23 @@ body.input{
     background: transparent;
 }
 
+
+.logo{
+    color:white;
+    padding-left: 15px;
+    font-size: 50px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+
 #navbar{
     display: flex;
     align-items: center;
     justify-content: center;
+     
+     
 }
 
 #navbar li{
@@ -44,29 +61,12 @@ body.input{
     position: relative;
 }
 
+ 
+ 
+
 #navbar li a{
     text-decoration: none;
     color: black;
-
-
-}
-
-
-
-
- 
-.cloudninelogo{
-    color:aquamarine;
-    padding-left: 0px;
-    font-size: 40px;
-}
-.cloudninelogo:hover{
-    cursor: pointer;
-}
-
- 
-
-#navbar li a{
     border: none;
     background-color: transparent;
     font-size: 25px;
@@ -80,38 +80,70 @@ body.input{
 #navbar li a:hover{
     color: white;
     cursor:pointer;
+    font-size: 27px;
     background-color: black;
     border-radius: 20px;
          
 }
 
 #banner{
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 40px;
+    padding-left: 70px;
+    margin-bottom: 0%;
+    
 }
  
+ 
 
-/* 
-.top_buttons:hover{
-    color: white;
-    cursor:pointer;
-    background-color: black;
-    border-radius: 20px;
-         
-    
-} */
+ .safe{
+     padding-top: 15px;
+      
+      
+     color:aqua;
+     font-size: 80px;
+     
+   
+ }
+
+ .doorstep{
+     color: antiquewhite;
+     font-size: 60px;
+ }
+
+ #services{
+     padding-top: 10px;
+     padding-left: 15px;
+     height: 500px;
+     background-color:white;
+ }
+
+ #services h1{
+     text-align: center;
+     font-size: 40px;
+     font-weight: bold;
+ }
+
+ #services .row{
+     
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ #services .service{
+    width: 20%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+ }
+ #services .service img{
+     padding: 20px 5px;
+     height: 260px;
+    width: 320px;
+     
+ }
 
 
-
-button.signup_button{
-    color:aqua;
-    padding: 10px 25px;
-    background: transparent;
-    border: 1px solid ;
-    border-color: rgb(32, 19, 19);
-    border-radius: 20px;
-    outline: none;
-    cursor: pointer;
-    height: 50px;
-
-}
+ 
+ 
