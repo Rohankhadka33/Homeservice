@@ -1,0 +1,13 @@
+.for_slick{
+    display: flex;
+}
+
+.for_slick .items{
+    height: 250px;
+    width: 400px;
+}
+
+.for_slick .items img{  
+    height: 250px;
+    width: 400px;
+}

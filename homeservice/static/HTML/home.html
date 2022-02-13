@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cloudnine.com</title>
      <link rel="stylesheet" href="../css/home.css">
+     <link rel="stylesheet" href="../css/slick.css">
+     <link rel="stylesheet" href="../css/slick-theme.css">
+
+     
 </head>
  <section id="main">
 
@@ -55,58 +59,116 @@
     <h1 >
         OUR SERVICES
     </h1>
-        <div class="row" >
-            <div class="service">
-                <img src="../images/ac.jpg" alt="">
-                <h6>Home Service</h6>
-                
-            </div>
-            <div class="service">
-                <img src="../images/ac.jpg" alt="">
-                <h6>Home Service</h6>
-                
-            </div>
-            <div class="service">
-                <img src="../images/ac.jpg" alt="">
-                <h6>Home Service</h6>
-            </div>
-            <div class="service">
-                <img src="../images/ac.jpg" alt="">
-                <h6>Home Service</h6>
-            </div>
-            <!-- <div class="service">
-                <img src="../images/ac.jpg" alt="">
-                <h6>Home Service</h6>
-            </div> -->
-            
-            
 
+     
+        <div class="container">
+            <div class="row">
+                <div class="items">
+                    <div class="team">
+                        <img src="../images/ac.jpg" alt="" class="img-fluid">
+                        <h4>Home Repair</h4>    
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="team">
+                        <img src="../images/ac.jpg" alt="" class="img-fluid">
+                        <h4>Home Repair</h4>    
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="team">
+                        <img src="../images/ac.jpg" alt="" class="img-fluid">
+                        <h4>Home Repair</h4>    
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="team">
+                        <img src="../images/ac.jpg" alt="" class="img-fluid">
+                        <h4>Home Repair</h4>    
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="team">
+                        <img src="../images/ac.jpg" alt="" class="img-fluid">
+                        <h4>Home Repair</h4>    
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="team">
+                        <img src="../images/ac.jpg" alt="" class="img-fluid">
+                        <h4>Home Repair</h4>    
+                    </div>
+                </div>
+            </div>
         </div>
-        
+   
+ 
 
-                <!-- <ul id="Home_services">
-                    <li>
-                        <a href="" class="home_repair">ac repair</a>
-                    </li>
-                    <li>
-                        <a href="" class="appliance_repair"></a>
-                    </li>
-                    <li>
-                        <a href="" class="home_cleaning"></a>
-                    </li>
-                    <li>
-                        <a href="" class="house_disinfection"></a>
-                    </li>
-                     
-    
-    
-                </ul> -->
+        <!-- <div class="row" >
+            
+             
+            <ul id="home_services">
+                <li class="service_list">
+                    <div class="service">
+                        <img src="../images/ac.jpg" alt="">
+                        <h6>Home repair</h6>
+                        
+                    </div>
+
+                </li>
+
+                <li class="service_list">
+                    <div class="service">
+                        <img src="../images/ac.jpg" alt="">
+                        <h6>Appliance repair</h6>
+                    </div>
+
+                </li>
+                <li class="service_list">
+                    <div class="service">
+                        <img src="../images/ac.jpg" alt="">
+                        <h6>House cleaning</h6>
+                    </div>
+
+                </li>
+                <li class="service_list">
+                    <div class="service">
+                        <img src="../images/ac.jpg" alt="">
+                        <h6>house_disinfection</h6>
+                    </div>
+
+                </li>
+                 
+            </ul>
+             
+            
+            
+
+        </div> -->
+        
+ 
 
     
 </section>
 
-            
-        
+
+
+          
+        <script>
+            $(document).ready(function(){
+  $('.row').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrow: true,
+  });
+}
+);
+        </script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../slick.min.js"></script>
     
 </body>
 </html>

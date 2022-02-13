@@ -85,6 +85,14 @@ body.input{
     border-radius: 20px;
          
 }
+#navbar li img:hover{
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 18px;
+    
+     
+     
+}
 
 #banner{
     padding-top: 40px;
@@ -112,24 +120,89 @@ body.input{
 
  #services{
      padding-top: 10px;
-     padding-left: 15px;
-     height: 500px;
-     background-color:white;
+     padding-left: 5px;
+     height: 800px;
+     background-color:#E5E5E5;
  }
+ 
 
  #services h1{
      text-align: center;
      font-size: 40px;
      font-weight: bold;
  }
-
- #services .row{
+ 
+ #services .container{
+     align-items: center;
      
+    display:block;
+     height: auto;
+     border-radius: 15px;
+     background-color: white;
+     
+     /* overflow: hidden; */
+ }
+ #services .row{
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     
+     
+     padding: 25px   ;
+      
+ }
+ .items{position: relative;
+    
+     border: transparent;
+     border-radius: 15px;
+     padding: 15px 10px;
+     transition-duration: 0.5s;
+ }
+ .items:hover{
+     cursor: pointer;
+     padding-top: 5px;
+     transition-duration: 0.5s;
+     border: 5px 5px rebeccapurple;
+     
+ }
+  
+ .team{
+     
+     text-align: center;
+     /* border: 5px solid gray ; */
+
+ }
+
+ #services .team img{
+    height: 210px;
+    width: 300px;
+    border-radius: 15px;
+ }
+ 
+
+
+
+
+ 
+ 
+/* 
+ #services .row{
+     padding-left: 0px;
+     background-color: whitesmoke;
+     border-radius: 28px;
+     height: 270px;
      display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    overflow: hidden;
  }
+ #home_services li{
+    list-style: none;
+    position: relative;
+}
+
  #services .service{
     width: 20%;
     padding: 0px;
@@ -139,10 +212,24 @@ body.input{
  }
  #services .service img{
      padding: 20px 5px;
-     height: 260px;
-    width: 320px;
+     height: 240px;
+    width: 300px;
+    border-radius: 30px;
+    transition-duration: 0.3s   ;
      
  }
+ .home_repair{
+     color: blue;
+     position: absolute;
+    bottom: 0px;
+ }
+
+ #services .service img:hover{
+    padding: 20px 5px;
+    height: 250px;
+   width: 310px;
+    
+} */
 
 
  
